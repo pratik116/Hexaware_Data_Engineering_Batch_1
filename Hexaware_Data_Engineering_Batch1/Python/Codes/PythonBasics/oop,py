@@ -1,0 +1,43 @@
+
+class Car:
+    def __init__(self,brand,model):
+        self.__private_attr='Car'
+        self.brand=brand
+        self.model=model
+
+    def display_info(self):
+        print(f'''Brand Name: {self.brand}\nModel Name: {self.model}''')
+        
+
+C1=Car('Tata','Punch')
+C2=Car('Audi','A4')
+
+C1.display_info()
+C2.display_info()
+
+#inheritance and method overriding
+
+print("*** Inheritance ***")
+
+class SuperCar(Car):
+    def __init__(self,brand,model,max_speed):
+        super().__init__(brand,model)
+        self.max_speed=max_speed
+
+    def display_info(self):
+        super().display_info()
+        print(f'''Max speed: {self.max_speed}''')
+
+
+C3=SuperCar('BMW','M1','270 km/h')
+C3.display_info()
+
+#encapsulation and data abstarction
+#not accessible because private_attr is private attribute
+# _ means protected (only accessible within base class and derived class)
+# __ means private (only accessible within the base class)
+
+
+print("*** Encapsulation ***")
+
+print(C1.private_attr)

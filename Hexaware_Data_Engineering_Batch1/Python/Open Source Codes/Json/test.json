@@ -1,0 +1,40 @@
+{
+    "students": [
+      {
+        "name": "Alice",
+        "age": 20,
+        "grades": [85, 90, 95]
+      },
+      {
+        "name": "Bob",
+        "age": 22,
+        "grades": [75, 80, 85]
+      },
+      {
+        "name": "Charlie",
+        "age": 21,
+        "grades": [90, 85, 88]
+      },
+      {
+        "name": "David",
+        "age": 19,
+        "grades": [70, 75, 80]
+      },
+      {
+        "name": "Eva",
+        "age": 23,
+        "grades": [95, 98, 99]
+      },
+      {
+        "name": "Frank",
+        "age": 20,
+        "grades": [80, 85, 90]
+      },
+      {
+        "name": "Grace",
+        "age": 22,
+        "grades": [88, 90, 92]
+      }
+    ]
+  }
+  
